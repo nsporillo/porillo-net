@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - node
+deploy:
+  provider: s3
+  access_key_id: AKIA43MFWOH2KOKJL34E
+  secret_access_key:
+    secure: oXyULnLygSH14mrFnRNwy6eF5BguKzQNGUbqlMk7ICCcypMh/zLAj5NnvSH9VOdP+ItknnFDu8OFkXQO5DN9zFufOFztzdZWomZlhP/ZKefvYUTMxrJfTGBZxi3CXJME93K3GD0DBE1COPFf0AKIQCTCwzPfOJPqADpF/TdDxGEMu041wFgyK7xn/Kdayis8KPTyZpEPUFpgwbuEimqCTp0tWOcdCjPFsDEAfJZ6dAkthm90KECqVy8xscr/DRTWpA8Lu6egarAFT2UewVfX1/kbb+YdyYAjMh/4MoWmSNvLkPyYCq+QxMFIfLIl8tHR+bCG4T47MTEaMaSI8KmGVHdKAUu2MLRb6R2e84Ts4P6ZuICQkpkLPMjcsQI6unR+pu666lxetLAr3WbbFUW5DeC4Bb6mwx/+8sKz10vR/7uI0AXlF5UZ4owEmInkBMkzw5EMrJ68GKWapWhSDDDh4UtRKSviFTod80B1SFj7uKcXc1ZjqULRISaY3Cqol5nBSMYxOAl5ZufguD3FofTd7WjZ0o+Gknn+q0UmQ9mW81PE9zN9GCr67YM+MsI+RR3Inr81lzTfymYDi212A+DVIAWlFgi059WgwAmNSzI/nX9CRlI9pmH2oeeCdM4zzBljVXVaMmLOMqRzTWIitVj8PXukC4aVG5L9P4yAMkNPCMc=
+  bucket: nick.porillo.net
+  acl: public_read

@@ -1,0 +1,19 @@
+{
+  "name": "porillo-net",
+  "version": "1.0.0",
+  "description": "Personal website for Nicholas Porillo",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsporillo/porillo-net.git"
+  },
+  "author": "Nicholas Porillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsporillo/porillo-net/issues"
+  },
+  "homepage": "https://github.com/nsporillo/porillo-net#readme"
+}
